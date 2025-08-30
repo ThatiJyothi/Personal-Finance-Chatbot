@@ -1,7 +1,7 @@
 # Personal Finance Chatbot 🤖💰
 
 ## Project Overview
-The **Personal Finance Chatbot** is an intelligent AI assistant designed to help users manage their finances. It provides guidance on **savings, budgeting, loans, taxes, and investments** using conversational AI powered by NLP.
+The **Personal Finance Chatbot** is an intelligent AI assistant designed to help users manage their finances. It provides guidance on **savings, taxes, and investments** using conversational AI powered by NLP.
 
 Built with **Flask** for the backend and **HTML/CSS/JavaScript** for the frontend, this chatbot simplifies personal finance management in an interactive way.
 
@@ -29,4 +29,5 @@ Built with **Flask** for the backend and **HTML/CSS/JavaScript** for the fronten
 1. Clone the repository:  
 ```bash
 git clone https://github.com/yourusername/personal-finance-chatbot.git
+
 
