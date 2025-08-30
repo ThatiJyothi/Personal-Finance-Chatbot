@@ -19,15 +19,12 @@ Built with **Flask** for the backend and **HTML/CSS/JavaScript** for the fronten
 ## Technologies Used 🛠️
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Flask (Python)  
-- **NLP/AI:** Python-based NLP models or IBM Watson services  
-- **Data Handling:** JSON for user profiles and budget data  
-- **Version Control:** Git & GitHub  
+- **NLP/AI:** Python-based NLP models    
+- **Version Control:** - GitHub  
 
 ---
 
-## Installation ⚡
-1. Clone the repository:  
-```bash
-git clone https://github.com/yourusername/personal-finance-chatbot.git
+
+
 
 
