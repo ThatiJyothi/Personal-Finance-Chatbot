@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Finance Chatbot - Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+   <img src="{{ url_for('static', filename='images/bg_img.jpg') }}">
+
+  <div class="center-card">
+    <h1>💰 Personal Finance Chatbot</h1>
+    <p class="subtitle">Intelligent Guidance for Savings, Taxes, and Investments</p>
+
+    <p class="select-text">Select one of the functions below</p>
+
+    <div class="btn-row">
+      <a class="pill" href="{{ url_for('student_page') }}">🎓 Student</a>
+      <a class="pill" href="{{ url_for('professional_page') }}">💼 Professional</a>
+    </div>
+  </div>
+</body>
+</html>

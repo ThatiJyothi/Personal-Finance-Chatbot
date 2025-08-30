@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professional Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-shell">
+    <header class="chat-header">
+      <a class="back" href="{{ url_for('index') }}">⬅ Home</a>
+      <h2>💼 Professional Finance Chatbot</h2>
+    </header>
+
+    <main id="chatWindow" class="chat-window"></main>
+
+    <form id="chatForm" class="chat-form" onsubmit="return sendMessage('professional')">
+      <input id="messageInput" autocomplete="off" placeholder="Ask about taxes, investments or retirement..." />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
